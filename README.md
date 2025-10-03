@@ -34,7 +34,9 @@ This project explores the fascinating relationship between market psychology and
 #### 1. 📊 Comprehensive Static Dashboard (Cell 20) - 18 Visualizations
 Our flagship mega-dashboard combining all analysis results into a single powerful visualization:
 
-![Dashboard Preview](https://img.shields.io/badge/Dashboard-18%20Charts-blue?style=for-the-badge)
+> **🎯 To View Dashboard:** Open `bitcoin_sentiment_trader_analysis.ipynb` → Run all cells → Scroll to **Cell 20** for the complete 18-chart dashboard
+>
+> ![Dashboard Preview](https://img.shields.io/badge/Dashboard-18%20Charts-blue?style=for-the-badge) ![Interactive](https://img.shields.io/badge/Status-Interactive-green?style=for-the-badge)
 
 **🔍 Dashboard Layout (6×3 Grid):**
 
@@ -164,13 +166,62 @@ Ensure these CSV files are in the project directory:
 | Closed PnL | Profit/Loss | float |
 | Fee | Trading fee | float |
 
+## 🎯 Dashboard Access Guide
+
+### 📊 How to View the Dashboards
+
+1. **Open the Notebook**:
+   ```bash
+   jupyter notebook bitcoin_sentiment_trader_analysis.ipynb
+   ```
+
+2. **Run All Cells**:
+   - Click `Kernel` → `Restart & Run All`
+   - Or press `Ctrl+Shift+Enter` repeatedly
+   - Wait for all cells to execute (2-3 minutes)
+
+3. **Navigate to Dashboards**:
+   - **Main Dashboard**: Scroll to **Cell 20** (18-chart comprehensive view)
+   - **Interactive Dashboards**: Look for Panel/Dash outputs in later cells
+   - **Executive Summary**: Final dashboard cells
+
+4. **Dashboard Features**:
+   - **Zoom**: Mouse wheel or zoom controls
+   - **Pan**: Click and drag to move around
+   - **Hover**: Mouse over data points for details
+   - **Export**: Use Plotly toolbar for saving images
+
+### 🔧 Troubleshooting Dashboard Issues
+
+- **Dashboard not showing?** → Restart kernel and run all cells again
+- **Charts appear blank?** → Check data files are in the correct directory
+- **Slow rendering?** → Wait 30-60 seconds for large datasets to process
+- **Interactive features not working?** → Ensure all dependencies are installed
+
+---
+
 ## 🚀 Usage Guide
 
 ### Running the Analysis
 
 1. **Execute all cells** in order for complete analysis
-2. **View dashboards** in the final sections (especially Cell 20)
+2. **View dashboards** in the final sections:
+   - **Cell 20**: Comprehensive 18-chart static dashboard
+   - **Cell 21**: Interactive Panel dashboard (if available)
+   - **Cell 22**: Executive summary dashboard (if available)
 3. **Customize parameters** in the interactive dashboards
+
+### 🎯 Quick Dashboard Access
+
+```bash
+# Open Jupyter Notebook
+jupyter notebook bitcoin_sentiment_trader_analysis.ipynb
+
+# In Jupyter:
+# 1. Click "Run All" or press Ctrl+Shift+Enter multiple times
+# 2. Scroll to Cell 20 for the main dashboard
+# 3. Wait for all visualizations to render (may take 30-60 seconds)
+```
 
 ### Dashboard Performance Metrics
 - **Data Coverage**: 731 sentiment records + 211,224 trading records
