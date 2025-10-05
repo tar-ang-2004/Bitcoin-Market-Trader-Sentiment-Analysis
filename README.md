@@ -427,12 +427,7 @@ For questions, suggestions, or collaboration opportunities, please open an issue
 - [Behavioral Finance in Crypto Markets](https://papers.ssrn.com/)
 - [Technical Analysis Best Practices](https://www.investopedia.com/)
 
-### Related Projects
-- Cryptocurrency sentiment analysis
-- Trading strategy backtesting
-- Market psychology research
-- Financial time series analysis
-
 ---
 
 **Built with ❤️ for the crypto trading and data science community**
+
